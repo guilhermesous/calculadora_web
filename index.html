@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo de 2 números</title>
+    <link rel="shortcut icon" href="icons8-soma-32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="logo"><img src="draw_svg20210720-6240-rmcdu0.svg-removebg-preview.png" alt=""></div>
+    <div class="tudo">
+        <h1 class="titulo">Vamos Calcular!</h1>
+        <form>
+            <br>
+            <label>Valor 01 </label>
+            <input type="number" class="campo_valor" name="" id="valor01" placeholder="Valor 01" name="valor01">
+            <br>
+            <br>
+            <label>Valor 02 </label>
+            <input type="number" class="campo_valor" name="" id="valor02" placeholder="Valor 02" name="valor02">
+            <br>
+            <br>
+            <button type="button" class="btn_calcular" onclick="Soma()">Somar</button>
+            <button type="button" class="btn_calcular" onclick="Multiplica()" > Multiplicar </button>
+            <button type="reset" class="btn_limpar" onclick="Limpa()">Limpar</button>
+        </form>
+        <h2>
+            Resultado: 
+            <span id="resultado"></span>
+        </h2>
+    </div>
+<script src="calculo.js"></script>
+</body>
+</html>
